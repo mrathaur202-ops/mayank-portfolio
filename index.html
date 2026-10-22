@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+  </head>
+  
+  <body>
+    <header>
+      <h1> RESUME BUILDER </h1>
+      <h3> MAYANK SINGH RATHORE </h3>
+    </header>
+
+    <button id="toggle">TOGGLE-THEME </button>
+
+    <nav>
+      <ul>
+        <li> <a href = "" > ABOUT ME</a></li>
+        <li> <a href = "" > RESUMES SAMPLES </a></li>
+        <li> <a href = "contact-me" > CONTACT ME</a></li>
+        <li> <a href = "admin-login"  id="admin-btn"> ADMIN LOGIN  </a></li>
+      </ul>
+    </nav>
+
+    <section id="contact-me"  class="resume">
+      <h3> CONTACT ME</h3>                    <!--- CONTACT ME section---> 
+        <form id="contact-form">
+         <div>
+         <label> NAME : </label>
+         <input id="name">
+         </div>
+         
+         <div>
+         <label> E-MAIL : </label>
+         <input id="email">
+         </div
+           
+         <div>
+         <label> MESSAGE : </label>
+         <textarea required id="message"> </textarea>
+         </div>
+           <br> 
+         <button id="contact-btn"> SEND </button>  
+        </form>
+    </section>
+
+    <section id="admin-login"  class="resume">
+      <h3> ADMIN LOGIN </h3>                   <!--- ADMIN LOGIN section---> 
+        <form id="admin-form">
+          
+         <div>
+         <label> USER-NAME :</label>
+         <input id="username">
+         </div>
+          
+        <div class="pwd">
+         <label> PASSWORD :</label>
+         <input type=password id="password">
+          <br>
+        <button id="contact-btn"> LOGIN</button>
+         
+       </form>
+    </section>
+
+    <section id="user-response" class="resume">
+      <h3> USER-RESPONSE</h3>                     <!--- USER-RESPONSE section---> 
+       <div id="user-msg">
+        
+       </div>
+      
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
